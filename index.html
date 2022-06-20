@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+</head>
+
+<body>
+    <!-- ================================================wrapper============================================================================================================================================================================================================ -->
+    <div class="wrapper">
+        <!-- ================================================header============================================================================================================================================================================================================ -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="#" class="header__logo">
+                            <img src="images/icon/logo.svg" alt="logo">
+                        </a>
+                        <div class="header__burger">
+                            <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                                  <svg width="24" height="24" viewBox="0 0 100 100">
+                                    <path class="line line1"
+                                      d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                    <path class="line line2" d="M 20,50 H 80" />
+                                    <path class="line line3"
+                                      d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                                  </svg>
+                                </button>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__item">
+                                    <a href="#" class="header__link">home</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">About</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Testimonials</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header__bottom-inner">
+                        <div class="header__bottom-item">
+                            <h1 class="header__bottom-title">Building digital products, brands & experience</h1>
+                            <p class="header__bottom-text">Digital Agency is your online team mangement tool that easy and prompt
+                            </p>
+                            <a href="#" class="header__bottom-link btn-link">Contact Us</a>
+                        </div>
+                        <div class="header__bottom-item">
+                            <img class="header__bottom-img" src="images/content/business-1.png" alt="business-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ================================================main============================================================================================================================================================================================================ -->
+        <main class="main">
+            <div class="companies">
+                <div class="container">
+                    <span class="companies__span">Trusted by 4,000+ companies</span>
+                    <div class="companies__inner">
+                        <div class="companies__item">
+                            <img src="images/icon/companies_1.svg" alt="companies" class="companies__img">
+                        </div>
+                        <div class="companies__item">
+                            <img src="images/icon/companies_2.svg" alt="companies" class="companies__img">
+                        </div>
+                        <div class="companies__item">
+                            <img src="images/icon/companies_3.svg" alt="companies" class="companies__img">
+                        </div>
+                        <div class="companies__item">
+                            <img src="images/icon/companies_4.svg" alt="companies" class="companies__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__box">
+                            <div class="about__item">
+                                <img src="images/content/designer-1.png" alt="about" class="about__img">
+                            </div>
+                            <div class="about__item">
+                                <h2 class="about__title title">Branding & Design system</h2>
+                                <p class="about__text subtext">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups
+                                </p>
+                                <a href="#" class="about__link arrow-1">
+                                    <div></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about__box">
+                            <div class="about__item">
+                                <h2 class="about__title title">Custome & Plugin Development</h2>
+                                <p class="about__text subtext">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups
+                                </p>
+                                <a href="#" class="about__link arrow-1">
+                                    <div></div>
+                                </a>
+                            </div>
+                            <div class="about__item">
+                                <img src="images/content/designer-2.png" alt="about" class="about__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <span class="subtitle">TESTIMONIALS</span>
+                    <h2 class="reviews__title title">Read What Other have to Say</h2>
+                    <div class="reviews__inner">
+                        <div class="reviews__item">
+                            <img src="images/content/black_1.png" alt="reviews" class="reviews__img">
+                            <div class="reviews__name">Andrew Rathore</div>
+                            <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                            </p>
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/content/black_2.png" alt="reviews" class="reviews__img">
+                            <div class="reviews__name">Vera Duncan</div>
+                            <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                            </p>
+                        </div>
+                        <div class="reviews__item">
+                            <img src="images/content/black_3.png" alt="reviews" class="reviews__img">
+                            <div class="reviews__name">Mark Smith</div>
+                            <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__item">
+                            <img src="images/content/customer-support.png" alt="contact" class="contact__img">
+                        </div>
+                        <div class="contact__item">
+                            <h2 class="contact__title title">Be a part of the next big thing</h2>
+                            <p class="contact__text subtext">We work with Brans, Startups, to SMEs. Colaborate for more impact and growt
+                            </p>
+                            <a href="#" class="contact__link btn-link">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- ================================================footer============================================================================================================================================================================================================ -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__item">
+                        <h6 class="footer__title">Digital Agency
+                        </h6>
+                        <ul class="footer__list">
+                            <li class="footer__li footer__li-text">
+                                Building digital products, brands & experience
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h6 class="footer__title">Resources</h6>
+                        <ul class="footer__list">
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Guides</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Blog</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Cuistomer Stories</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Glossery</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h6 class="footer__title">Company</h6>
+                        <ul class="footer__list">
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Careers</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Partners</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h6 class="footer__title">Social Media</h6>
+                        <ul class="footer__list">
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">LinkedIn</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Facebook</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Instagram</a>
+                            </li>
+                            <li class="footer__li">
+                                <a href="#" class="footer__link">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copy">© Matheus. Todos os direitos reservados</div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
